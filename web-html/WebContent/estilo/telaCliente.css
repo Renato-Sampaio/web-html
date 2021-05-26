@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+
+
+
+
+body {
+	
+	background-image: url(fundo1.jpg);
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.botao {
+	position: absolute;
+	top: 390px;
+	left: 320px;
+}
+
+.botao a {
+	font: bold 12px/24px arial;
+	padding: 0px;
+	text-align: center;
+	color: #ccc;
+	background: #666 url('../img/botao_link.gif') no-repeat center center;
+	width: 120px;
+	height: 24px;
+	display: block;
+}
+
+.botao a:hover {
+	background: #666 url('../img/botao_hover.gif') no-repeat center center;
+	color: #999;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539f;
+	text-shadow: 2px 2px 1px black;
+}
